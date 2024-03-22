@@ -645,21 +645,20 @@
           </div>
         </div>
         <div class="row mt-5 d-flex justify-content-around">
-          <div class="col-lg-8 col-md-12 col-xs-12 info team-message">
+          <!-- Paragraph on Top, Image on Bottom (Medium and Small Screens) -->
+          <div class="col-lg-8 col-md-12 col-xs-12 order-md-2 order-sm-2 order-xs-2 order-lg-1 info team-message">
             <div class="fadeInLefts" data-aos="fade-right" data-aos-delay="100">
               <div class="content-deb">
-                <p>I'm honored to step into the role of Office Manager at Remote Alpha Geeks, a company I've been
-                  dedicated to for years. Our mission remains focused on optimizing office operations through tailored
-                  solutions that prioritize efficiency and productivity. With our innovative technology and personalized
-                  support, we're committed to meeting your unique needs, whether it's task management, operational
-                  streamlining, or providing insightful strategies for success. </p>
-                <!-- <p>Our commitment to innovation drives us forward. As technology evolves, we evolve with it, ensuring you always have access to the latest tools and strategies. With a team of dedicated professionals, we're focused on making your experience seamless, efficient, and transformative.</p> -->
-                <!-- <p>Choose Remote Alpha Geeks for a partnership that transcends typical services. Experience a new level of efficiency, collaboration, and growth. Your aspirations drive us, and we're excited to support you every step of the way.</p> -->
-                <!-- <p>Thank you for considering Remote Alpha Geeks as your virtual assistant solution. Together, let's embark on a journey of elevated success.</p> -->
+                <p><span>Diana</span> has twelve years of experience in administration working with different industries
+                  such as customer service, distribution, and health. She started working with <span>Remote Alpha
+                    Geeks</span> in 2022 where she contributed immensely in its growth by managing payroll, organizing
+                  events and lead generation. <br> <br> Outside of work, Diana enjoys spending time with her family and
+                  taking care of her adorable daughter. She enjoys listening to a variety of musical genres to unwind.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 order-md-1" data-aos="fade-up" data-aos-delay="100">
             <div class="member hover-zoom-card">
               <div class="member-img">
                 <img src="assets/img/team/diana_ferraren.jpg" class="img-fluid" width="350" alt="">
@@ -677,79 +676,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="row team-list">
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                <div class="member hover-zoom">
-                  <div class="member-img">
-                    <img src="assets/img/team/deb.jpg" class="img-fluid" width="350" alt="">
-                    <div class="social">
-                      <a href=""><i class="icofont-twitter"></i></a>
-                      <a href=""><i class="icofont-facebook"></i></a>
-                      <a href=""><i class="icofont-instagram"></i></a>
-                      <a href=""><i class="icofont-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>Deborah Ferraren</h4>
-                    <span>Chief Executive Officer</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                <div class="member hover-zoom">
-                  <div class="member-img">
-                    <img src="assets/img/team/diana.jpg" class="img-fluid" width="350" alt="">
-                    <div class="social">
-                      <a href=""><i class="icofont-twitter"></i></a>
-                      <a href=""><i class="icofont-facebook"></i></a>
-                      <a href=""><i class="icofont-instagram"></i></a>
-                      <a href=""><i class="icofont-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>Diana Ferraren</h4>
-                    <span>Product Manager</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                <div class="member hover-zoom">
-                  <div class="member-img">
-                    <img src="assets/img/team/denz.jpg" class="img-fluid" width="350" height="800px" alt="">
-                    <div class="social">
-                      <a href=""><i class="icofont-twitter"></i></a>
-                      <a href=""><i class="icofont-facebook"></i></a>
-                      <a href=""><i class="icofont-instagram"></i></a>
-                      <a href=""><i class="icofont-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>Denzel Ferraren</h4>
-                    <span>Web Developer</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                <div class="member hover-zoom">
-                  <div class="member-img">
-                    <img src="assets/img/team/sean.jpg" class="img-fluid" width="350" alt="">
-                    <div class="social">
-                      <a href=""><i class="icofont-twitter"></i></a>
-                      <a href=""><i class="icofont-facebook"></i></a>
-                      <a href=""><i class="icofont-instagram"></i></a>
-                      <a href=""><i class="icofont-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>Sean Lew Remualdo</h4>
-                    <span>Student</span>
-                  </div>
-                </div>
-              </div>
-            </div> -->
       </div>
     </section>
     <!-- End Team Section -->
