@@ -181,11 +181,11 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a
                   href="https://www.careers-page.com/remotealphageeks#openings">Job Openings</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="hiring.html">Recruitment Process</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hiring.php">Recruitment Process</a></li>
               <li><i class="bx bx-chevron-right"></i> <a
                   href="https://www.careers-page.com/remotealphageeks">Careers</a></li>
             </ul>
