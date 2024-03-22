@@ -1,4 +1,4 @@
-<!-- <?php require 'sendmail.php'; ?> -->
+<!-- <?php //require 'sendmail.php'; ?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -71,7 +71,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.php">About Us</a></li>
           <!-- <li><a href="#facts">Facts</a></li> -->
           <!-- <li><a href="#hiring">Jobs</a></li> -->
           <!-- <li><a href="#team">My Team</a></li> -->
@@ -79,16 +79,15 @@
           <li class="drop-down"><a href="#hiring">Jobs</a>
             <ul>
               <li><a href="https://www.careers-page.com/remotealphageeks#openings" target="_blank">Job Openings</a></li>
-              <li><a href="hiring.html">Recruitment Process</a></li>
+              <li><a href="hiring.php">Recruitment Process</a></li>
             </ul>
           </li>
           <!-- <li><a href="what-we-do.html">What we do</a></li> -->
           <li><a href="https://www.careers-page.com/remotealphageeks" target="_blank">Careers</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </nav>
     </div>
-    <!-- <?php echo $alert; ?> -->
   </header>
   <!-- End Header -->
   <!-- ======= Hero Section ======= -->

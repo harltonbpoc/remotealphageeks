@@ -1,3 +1,4 @@
+<!-- <?php //require 'sendmail.php'; ?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,19 +44,6 @@
 </head>
 
 <body>
-  <!-- ======= Top Bar ======= -->
-  <!-- <section id="topbar" class="d-none d-lg-block">
-      <div class="container d-flex">
-        <div class="contact-info ml-auto">
-          <ul>
-            <li><i class="icofont-envelope"></i> <a href="https://mail.google.com/mail/u/0/?fs=1&to=contact@remotealphageeks.com&su=SUBJECT&body=BODY&tf=cm" target="_blank">contact@remotealphageeks.com</a></li>
-            <li><i class="icofont-phone"></i> <a href="https://wa.me/639452364899" target="_blank">+63 945 236 4899</a></li>
-            <li><i class="icofont-clock-time icofont-flip-horizontal"></i> Mon-Fri 8am - 5pm</li>
-          </ul>
-        </div>
-      </div>
-    </section> -->
-  <!-- ======= End Top Bar ======= -->
   <!-- ======= Header ======= -->
   <header id="header" class="bg-nav">
     <div class="container d-flex justify-content-between">
@@ -70,7 +58,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li class="active"><a href="about.php">About Us</a></li>
           <!-- <li><a href="#facts">Facts</a></li> -->
           <!-- <li><a href="#hiring">Jobs</a></li> -->
           <!-- <li><a href="#team">My Team</a></li> -->
@@ -78,90 +66,93 @@
           <li class="drop-down"><a href="#hiring">Jobs</a>
             <ul>
               <li><a href="https://www.careers-page.com/remotealphageeks#openings" target="_blank">Job Openings</a></li>
-              <li><a href="hiring.html">Recruitment Process</a></li>
+              <li><a href="hiring.php">Recruitment Process</a></li>
             </ul>
           </li>
           <!-- <li><a href="what-we-do.html">What we do</a></li> -->
           <li><a href="https://www.careers-page.com/remotealphageeks" target="_blank">Careers</a></li>
-          <li class="active"><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </nav>
     </div>
-    <!-- <?php echo $alert; ?> -->
   </header>
   <!-- End Header -->
-  <!-- End Hero -->
   <main id="main">
-    <!-- ======= Clients Section v1======= -->
-    <section id="clients" class="clients bg-content">
-      <div class="container">
+    <div class="about" id="about">
+      <div class="container py-xl-5 py-lg-3">
         <h3 class="title-w3-3 mb-sm-5 text-center">
-          <span class="title-process">Contact Us</span><br>
+          <span class="title-process">About Us</span><br>
         </h3>
-        <div class="contact-introduction">
-          <p> At Remote Alpha Geeks, we highly appreciate the thoughts, feedback, and inquiries from our clients. Your
-            input plays a pivotal role in shaping our services and ensuring that we deliver top-notch assistance.
-            <br><br> Therefore, we warmly encourage you to reach out to us through any of the following channels: </p>
+        <div class="content-about-process">
+          <p>
+            <span class="highlight-text">Remote Alpha Geeks</span> is a start-up managed services company that offers
+            Virtual Assistance to clients from the US, UK and Australia. The company aims to assist clients calibrate
+            their business and execute business goals by taking away repetitive administrative tasks and allowing them
+            to focus their time in business development and achieving a work life balance.
+          </p>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up">
-            <div class="icon-box hovering-icon">
-              <div class="icon img-hover"><img src="assets/img/Logo/FB.png" class=""></div>
-              <h4 class="title"><a href="https://www.facebook.com/remotealphageeks" target="_blank">Facebook</a></h4>
-              <p class="description"> To get in touch with us directly, simply visit our Facebook page and send us a
-                message. Whether you have questions, feedback, or just want to say hello, we're here to chat with you.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box hovering-icon">
-              <div class="icon img-hover"><img src="assets/img/Logo/Instagram-app-logo.jpg"></div>
-              <h4 class="title"><a href="https://www.instagram.com/remotealphageeks/?igshid=YmMyMTA2M2Y="
-                  target="_blank">Instagram</a></h4>
-              <p class="description"> Send us a direct message on Instagram to get in touch with our team. Whether you
-                have questions, suggestions, or just want to share your thoughts, we're here to listen and engage with
-                you. </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box hovering-icon">
-              <div class="icon img-hover"><img src="assets/img/Logo/Viber-logo.png"></div>
-              <h4 class="title"><a href="https://wa.me/639452364899" target="_blank">Viber</a></h4>
-              <p class="description"> Connect with us on Viber for quick and convenient communication! Stay in the loop
-                with our latest updates, promotions, and news by following us on Viber. </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box hovering-icon">
-              <div class="icon img-hover"><img src="assets/img/Logo/LinkedIn-Logo.jpg" style="border-radius: 8px;">
+        <div class="row about-us-contents added-mtop">
+          <div class="col-lg-6 col-md-12 pt-4 col-xs-12 info">
+            <div class="what-wrapper fadeInLefts" data-aos="fade-right" data-aos-delay="100">
+              <div class="content">
+                <p>
+                  <span class="highlight-text">Remote Alpha Geeks</span> provides monthly huddles/coaching sessions with
+                  the team members to discuss Wins and Challenges and ensure they get the best support they need. We
+                  will provide training where necessary including basic Microsoft Office or Google Workspace training,
+                  Outlook, Email Management & Etiquette, Calendar Management, Canva, Data Entry, etc. <br><span
+                    class="highlight-text">Remote Alpha Geeks do not require a fee with respect to recruiting costs. The
+                    process of finding a VA for you is FREE.</span>
+                </p>
               </div>
-              <h4 class="title"><a href="https://www.linkedin.com/company/remote-alpha-geeks" target="_blank">Linked
-                  in</a></h4>
-              <p class="description"> Feel free to reach out to our team members directly through LinkedIn messaging. We
-                welcome your questions, feedback, and ideas! </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon-box hovering-icon">
-              <div class="icon img-hover"><img src="assets/img/Logo/Gmail-logo-new.jpg"></div>
-              <h4 class="title"><a
-                  href="https://mail.google.com/mail/u/0/?fs=1&to=contact@remotealphageeks.com&su=SUBJECT&body=BODY&tf=cm"
-                  target="_blank">Gmail</a></h4>
-              <p class="description"> By reaching out to us via Gmail, you'll receive prompt responses and personalized
-                assistance tailored to your needs. Let's start a conversation today! </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon-box hovering-icon">
-              <div class="icon img-hover"><img src="assets/img/Logo/Mail-logo.jpg"></div>
-              <h4 class="title"><a href="mailto:contact@remotealphageeks.com">Mail</a></h4>
-              <p class="description"> Let's stay connected through the timeless tradition of postal mail! </p>
-            </div>
+          <div class="col-lg-6 col-md-12 col-xs-12 fadeInRight grow-images" data-aos="fade-left" data-aos-delay="100">
+            <img class="img-fluid toHover" src="assets/img/about-us-img.png" alt="">
           </div>
         </div>
       </div>
-    </section>
-    <!-- End clients v1 Section -->
+    </div>
+    <div class="vision">
+      <div class="container py-xl-5 py-lg-3">
+        <h3 class="title-w3-3 mb-sm-5 text-center">
+          <span class="title-process">Our Vision & Mission</span><br>
+        </h3>
+        <div class="row about-us-contents added-mtop">
+          <div class="col-lg-6 col-md-12 col-xs-12 info">
+            <div class="what-wrapper fadeInLefts" data-aos="fade-right" data-aos-delay="100">
+              <div class="content-vision-mission">
+                <div class="vision">
+                  <div class="vision-icon">
+                    <i class="fas fa-glasses"></i>
+                  </div>
+                  <div class="description">
+                    <div class="title">Vision</div>
+                    <p> To offer employment to aspiring Filipino freelancers and virtual assistants and be a top
+                      supplier of offshore contractors offering quality services to foreign clients with lesser
+                      operational/management fees. </p>
+                  </div>
+                </div>
+                <div class="vision">
+                  <div class="mission-icon">
+                    <i class="fas fa-running"></i>
+                  </div>
+                  <div class="description">
+                    <div class="title">Mission</div>
+                    <p> Supplying clients with highly qualified virtual assistants to calibrate their business and
+                      execute business goals by taking away repetitive administrative tasks and allowing them to focus
+                      their time on business development and achieving a work-life balance. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 pt-4 col-xs-12 fadeInRight grow-images mission-vision-img" data-aos="fade-left"
+            data-aos-delay="100">
+            <img class="img-fluid toHover" src="assets/img/mission-vision.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </main><!-- End #main -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -207,8 +198,12 @@
       <div class="mr-lg-auto text-center text-lg-left">
         <div class="copyright"> &copy; Copyright <span id="current-year"></span> <strong><span>Remote Alpha
               Geeks</span></strong>. All Rights Reserved </div>
-        <div class="credits" style="color: #aaa;"> Designed by <a href="http://harltonhinon.epizy.com/"
-            target="_blank">Hart</a>
+        <div class="credits" style="color: #aaa;">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
+          Designed by <a href="http://harltonhinon.epizy.com/" target="_blank">Hart</a>
         </div>
       </div>
       <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
