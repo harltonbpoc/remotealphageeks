@@ -71,7 +71,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="about.php">About Us</a></li>
+          <li><a href="about.php">About Us.</a></li>
           <!-- <li><a href="#facts">Facts</a></li> -->
           <!-- <li><a href="#hiring">Jobs</a></li> -->
           <!-- <li><a href="#team">My Team</a></li> -->
