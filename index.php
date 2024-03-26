@@ -854,7 +854,7 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a
                   href="https://www.careers-page.com/remotealphageeks#openings">Job Openings</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="hiring.php">Recruitment Process</a></li>
