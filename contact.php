@@ -70,7 +70,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="about.php">About Us</a></li>
+          <li><a href="/about">About Us</a></li>
           <!-- <li><a href="#facts">Facts</a></li> -->
           <!-- <li><a href="#hiring">Jobs</a></li> -->
           <!-- <li><a href="#team">My Team</a></li> -->
@@ -78,12 +78,12 @@
           <li class="drop-down"><a href="#hiring">Jobs</a>
             <ul>
               <li><a href="https://www.careers-page.com/remotealphageeks#openings" target="_blank">Job Openings</a></li>
-              <li><a href="hiring.php">Recruitment Process</a></li>
+              <li><a href="/hiring">Recruitment Process</a></li>
             </ul>
           </li>
           <!-- <li><a href="what-we-do.php">What we do</a></li> -->
           <li><a href="https://www.careers-page.com/remotealphageeks" target="_blank">Careers</a></li>
-          <li class="active"><a href="contact.php">Contact Us</a></li>
+          <li class="active"><a href="/contact">Contact Us</a></li>
         </ul>
       </nav>
     </div>
@@ -181,11 +181,11 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a
                   href="https://www.careers-page.com/remotealphageeks#openings">Job Openings</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="hiring.php">Recruitment Process</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/hiring">Recruitment Process</a></li>
               <li><i class="bx bx-chevron-right"></i> <a
                   href="https://www.careers-page.com/remotealphageeks">Careers</a></li>
             </ul>
