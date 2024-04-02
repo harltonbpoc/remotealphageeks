@@ -1,4 +1,3 @@
-<!-- <?php //require 'sendmail.php'; ?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,8 +5,6 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Remote Alpha Geeks</title>
-  <!-- <meta content="" name="description">
-  <meta content="" name="keywords"> -->
   <!-- Favicons -->
   <link href="assets/img/favicon-16x16.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -17,7 +14,6 @@
     rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="assets/css/font-awesome.css"rel="stylesheet"> -->
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -29,38 +25,14 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/style2.css" rel="stylesheet">
   <link href="assets/css/process-step.css" rel="stylesheet">
-  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-  <!-- <script>document.getElementsByTagName("html")[0].className += " js";</script>
-  <link rel="stylesheet" href="assets/css/style2.css"> -->
-  <!-- =======================================================
-  * Template Name: Flexor - v2.4.1
-  * Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
-
 <body>
-  <!-- ======= Top Bar ======= -->
-  <!-- <section id="topbar" class="d-none d-lg-block">
-    <div class="container d-flex">
-      <div class="contact-info ml-auto">
-        <ul>
-          <li><i class="icofont-envelope"></i> <a href="https://mail.google.com/mail/u/0/?fs=1&to=contact@remotealphageeks.com&su=SUBJECT&body=BODY&tf=cm" target="_blank">contact@remotealphageeks.com</a></li>
-          <li><i class="icofont-phone"></i> <a href="https://wa.me/639452364899" target="_blank">+63 945 236 4899</a></li>
-          <li><i class="icofont-clock-time icofont-flip-horizontal"></i> Mon-Fri 8am - 5pm</li>
-        </ul>
-      </div>
-    </div>
-  </section> -->
-  <!-- ======= End Top Bar ======= -->
   <!-- ======= Header ======= -->
   <header id="header" class="bg-nav">
     <div class="container d-flex">
       <div class="logo mr-auto">
         <h1 class="text-light">
           <a href="/"> <img src="assets/img/wireframe-sphere.png" width="50">
-            <!---<span><small class="remote">Remote</small> <small class="alpha">Alpha Geeks</small></span>-->
             <img class="rag-word" src="assets/img/RAG.jpg" height="30" width="150">
           </a>
         </h1>
@@ -69,17 +41,12 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="about.php">About Us</a></li>
-          <!-- <li><a href="#facts">Facts</a></li> -->
-          <!-- <li><a href="#hiring">Jobs</a></li> -->
-          <!-- <li><a href="#team">My Team</a></li> -->
-          <!-- <li><a href="#clients">Our Clients</a></li> -->
           <li class="drop-down active"><a href="#hiring">Jobs</a>
             <ul>
               <li><a href="https://www.careers-page.com/remotealphageeks#openings" target="_blank">Job Openings</a></li>
               <li class="active"><a href="hiring.php">Recruitment Process</a></li>
             </ul>
           </li>
-          <!-- <li><a href="what-we-do.php">What we do</a></li> -->
           <li><a href="https://www.careers-page.com/remotealphageeks" target="_blank">Careers</a></li>
           <li><a href="contact.php">Contact Us</a></li>
         </ul>
@@ -306,7 +273,6 @@
         </div>
       </div>
     </div>
-    <!-- //end of recruitment process -->
   </main><!-- End #main -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -316,7 +282,7 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Contact Us</h4>
             <p>
-              <!-- Better Living Blk 9 Lot 10 <br> --> 414C Jones Ave. Sitio Kulo<br> Brgy. Sambag II, Cebu City<br>
+              414C Jones Ave. Sitio Kulo<br> Brgy. Sambag II, Cebu City<br>
               Philippines 6000<br><br>
               <strong>Phone:</strong> <br>+63 945 236 4899<br>
               <strong>Email:</strong> <br><a
@@ -376,7 +342,6 @@
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
@@ -397,5 +362,4 @@
     }
   }
 </script>
-
 </html>
