@@ -42,7 +42,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="/">Home</a></li>
-          <li class="active"><a href="about.php">About Us</a></li>
+          <li class="active"><a href="/about">About Us</a></li>
           <li class="drop-down"><a href="#hiring">Jobs</a>
             <ul>
               <li><a href="https://www.careers-page.com/remotealphageeks#openings" target="_blank">Job Openings</a></li>
