@@ -194,7 +194,7 @@
           </div>
         </div>
         <div class="row mt-5 d-flex justify-content-around">
-          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class="col-lg-3 col-md-6" data-aos="fade-right">
             <div class="member hover-zoom-card">
               <div class="member-img">
                 <img src="assets/img/team/darna.jpg" class="img-fluid" width="350" alt="">
@@ -214,7 +214,7 @@
             </div>
           </div>
           <div class="col-lg-8 col-md-12 col-xs-12 info team-message">
-            <div class="fadeInLefts" data-aos="fade-right" data-aos-delay="100">
+            <div class="fadeInLefts" data-aos="fade-left" data-aos-delay="100">
               <div class="content-deb">
                 <p>
                   <span>Deborah</span> has worked in the recruitment business for more than 11 years, eight of which she
@@ -245,7 +245,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 order-md-1" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 order-md-1" data-aos="fade-left" data-aos-delay="100">
             <div class="member hover-zoom-card">
               <div class="member-img">
                 <img src="assets/img/team/diana_ferraren.jpg" class="img-fluid" width="350" alt="">
