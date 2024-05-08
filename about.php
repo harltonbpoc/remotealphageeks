@@ -51,6 +51,7 @@
               <li><a href="/hiring">Recruitment Process</a></li>
             </ul>
           </li>
+          <li><a href="/blogs">Blogs</a></li>
           <li><a href="https://www.careers-page.com/remotealphageeks" target="_blank">Careers</a></li>
           <li><a href="/contact">Contact Us</a></li>
         </ul>

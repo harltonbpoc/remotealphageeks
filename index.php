@@ -49,6 +49,7 @@
               <li><a href="/hiring">Recruitment Process</a></li>
             </ul>
           </li>
+          <li><a href="/blogs">Blogs</a></li>
           <li><a href="https://www.careers-page.com/remotealphageeks" target="_blank">Careers</a></li>
           <li><a href="/contact">Contact Us</a></li>
         </ul>
@@ -87,6 +88,7 @@
           <div class="titles">
             <p>GROW YOUR BUSINESS</p>
           </div>
+          <div class="post-title mt-2"> GROW YOUR BUSINESS </div>
           <div class="grow-content-title">
             <p>WE OFFER PERFECT VIRTUAL ASSISTANT SERVICES FOR YOU.</p>
           </div>

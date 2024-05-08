@@ -1,5 +1,5 @@
 
-!(function($) {
+!(function ($) {
   "use strict";
 
   //Alert flash message
@@ -21,7 +21,7 @@
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 1;
-  $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
+  $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function (e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
@@ -53,7 +53,7 @@
   });
 
   // Activate smooth scroll on page load with hash links in the url
-  $(document).ready(function() {
+  $(document).ready(function () {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
       if ($(initial_nav).length) {
@@ -81,27 +81,27 @@
   // });
 
   // Navigation active state on scroll
-  var nav_sections = $('section');
-  var main_nav = $('.nav-menu, .mobile-nav');
+  // var nav_sections = $('section');
+  // var main_nav = $('.nav-menu, .mobile-nav');
 
-  $(window).on('scroll', function() {
-    var cur_pos = $(this).scrollTop() + 200;
+  // $(window).on('scroll', function() {
+  //   var cur_pos = $(this).scrollTop() + 200;
 
-    nav_sections.each(function() {
-      var top = $(this).offset().top,
-        bottom = top + $(this).outerHeight();
+  //   nav_sections.each(function() {
+  //     var top = $(this).offset().top,
+  //       bottom = top + $(this).outerHeight();
 
-      if (cur_pos >= top && cur_pos <= bottom) {
-        if (cur_pos <= bottom) {
-          main_nav.find('li').removeClass('active');
-        }
-        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
-      }
-      if (cur_pos < 300) {
-        $(".nav-menu ul:first li:first").addClass('active');
-      }
-    });
-  });
+  //     if (cur_pos >= top && cur_pos <= bottom) {
+  //       if (cur_pos <= bottom) {
+  //         main_nav.find('li').removeClass('active');
+  //       }
+  //       main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+  //     }
+  //     if (cur_pos < 300) {
+  //       $(".nav-menu ul:first li:first").addClass('active');
+  //     }
+  //   });
+  // });
 
   // Mobile Navigation
   if ($('.nav-menu').length) {
@@ -112,19 +112,19 @@
     $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
     $('body').append('<div class="mobile-nav-overly"></div>');
 
-    $(document).on('click', '.mobile-nav-toggle', function(e) {
+    $(document).on('click', '.mobile-nav-toggle', function (e) {
       $('body').toggleClass('mobile-nav-active');
       $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
       $('.mobile-nav-overly').toggle();
     });
 
-    $(document).on('click', '.mobile-nav .drop-down > a', function(e) {
+    $(document).on('click', '.mobile-nav .drop-down > a', function (e) {
       e.preventDefault();
       $(this).next().slideToggle(300);
       $(this).parent().toggleClass('active');
     });
 
-    $(document).click(function(e) {
+    $(document).click(function (e) {
       var container = $(".mobile-nav, .mobile-nav-toggle");
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($('body').hasClass('mobile-nav-active')) {
@@ -138,7 +138,7 @@
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }
 
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
     } else {
@@ -157,7 +157,7 @@
   });
 
   //check Back to top button
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
     } else {
@@ -165,7 +165,7 @@
     }
   });
 
-  $('.back-to-top').click(function() {
+  $('.back-to-top').click(function () {
     $('html, body').animate({
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
@@ -173,7 +173,7 @@
   });
 
   // Initiate the venobox plugin
-  $(window).on('load', function() {
+  $(window).on('load', function () {
     $('.venobox').venobox();
   });
 
@@ -184,8 +184,8 @@
   });
 
   // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
+  $('.skills-content').waypoint(function () {
+    $('.progress .progress-bar').each(function () {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
@@ -193,13 +193,13 @@
   });
 
   // Porfolio isotope and filter
-  $(window).on('load', function() {
+  $(window).on('load', function () {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
+    $('#portfolio-flters li').on('click', function () {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
@@ -210,7 +210,7 @@
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('.venobox').venobox();
     });
   });
@@ -233,7 +233,7 @@
     }
   });
 
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
     } else {
@@ -255,7 +255,7 @@
       }
     }
   });
-  
+
   $(".carousel").owlCarousel({
     margin: 20,
     loop: true,
@@ -263,16 +263,16 @@
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsive: {
-      0:{
-        items:1,
+      0: {
+        items: 1,
         nav: false
       },
-      600:{
-        items:2,
+      600: {
+        items: 2,
         nav: false
       },
-      1000:{
-        items:3,
+      1000: {
+        items: 3,
         nav: false
       }
     }
@@ -286,7 +286,7 @@
       once: true
     });
   }
-  $(window).on('load', function() {
+  $(window).on('load', function () {
     aos_init();
   });
 
