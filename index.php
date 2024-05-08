@@ -89,7 +89,6 @@
           <div class="titles">
             <p>GROW YOUR BUSINESS</p>
           </div>
-          <div class="post-title mt-2"> GROW YOUR BUSINESS </div>
           <div class="grow-content-title">
             <p>WE OFFER PERFECT VIRTUAL ASSISTANT SERVICES FOR YOU.</p>
           </div>
