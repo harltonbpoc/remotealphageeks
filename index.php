@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Remote Alpha Geeks</title>
   <!-- Favicons -->
-  <link href="assets/img/favicon-16x16.png" rel="icon">
+  <link href="assets/img/rag-favicon-16x16.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Canonical -->
   <link rel="canonical" href="https://www.remotealphageeksva.com">
   <!-- Google Fonts -->
   <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mouse+Memoirs&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mouse+Memoirs&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet"
@@ -31,6 +32,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/style2.css" rel="stylesheet">
 </head>
+
 <body>
   <!-- ======= Header ======= -->
   <header id="header" class="bg-nav">
@@ -276,9 +278,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Contact Us</h4>
-            <p>
-              414C Jones Ave. Sitio Kulo<br> Brgy. Sambag II, Cebu City<br>
-              Philippines 6000<br><br>
+            <p> 414C Jones Ave. Sitio Kulo<br> Brgy. Sambag II, Cebu City<br> Philippines 6000<br><br>
               <strong>Phone:</strong> <br>+63 945 236 4899<br>
               <strong>Email:</strong> <br><a
                 href="https://mail.google.com/mail/u/0/?fs=1&to=contact@remotealphageeks.com&su=SUBJECT&body=BODY&tf=cm"
