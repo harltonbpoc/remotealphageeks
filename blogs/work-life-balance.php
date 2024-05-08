@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Remote Alpha Geeks | Blogs</title>
     <!-- Favicons -->
-    <link href="assets/img/rag-favicon-16x16.png" rel="icon">
+    <link href="../assets/img/rag-favicon-16x16.png" rel="icon">
     <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.remotealphageeksva.com">
