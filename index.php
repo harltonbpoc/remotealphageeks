@@ -203,7 +203,7 @@
               <div class="member-img">
                 <img src="assets/img/team/darna.jpg" class="img-fluid" width="350" alt="">
                 <div class="social">
-                  <!-- <a href=""><i class="icofont-twitter"></i></a> -->
+                  <a href="https://wa.me/639452364899"><i class="icofont-brand-whatsapp"></i></a>
                   <a href="https://www.facebook.com/debferraren"><i class="icofont-facebook"></i></a>
                   <a
                     href="https://www.instagram.com/debferraren25?fbclid=IwAR3Y2j_ajvcaCQIWQVNt5L3IyV2oYs0QshSBUcijXh2hKU7a-_8eWVW1ur8"><i
@@ -254,7 +254,7 @@
               <div class="member-img">
                 <img src="assets/img/team/diana_ferraren.jpg" class="img-fluid" width="350" alt="">
                 <div class="social">
-                  <!-- <a href=""><i class="icofont-twitter"></i></a> -->
+                  <a href="#"><i class="icofont-brand-whatsapp"></i></a>
                   <a href="https://www.facebook.com/diana.ferraren"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/diane_f.2012/"><i class="icofont-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/diana-ferraren-a58815255/"><i class="icofont-linkedin"></i></a>
