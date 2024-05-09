@@ -254,7 +254,7 @@
               <div class="member-img">
                 <img src="assets/img/team/diana_ferraren.jpg" class="img-fluid" width="350" alt="">
                 <div class="social">
-                  <a href="#" target="_blank"><i class="icofont-brand-whatsapp"></i></a>
+                  <a href="https://wa.me/639330144583" target="_blank"><i class="icofont-brand-whatsapp"></i></a>
                   <a href="https://www.facebook.com/diana.ferraren" target="_blank"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/diane_f.2012/" target="_blank"><i class="icofont-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/diana-ferraren-a58815255/" target="_blank"><i class="icofont-linkedin"></i></a>
