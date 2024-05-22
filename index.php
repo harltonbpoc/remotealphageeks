@@ -177,6 +177,7 @@
         </div>
         <div class="owl-carousel clients-carousel">
           <img src="assets/img/clients/West-coast.png" alt="West Coast Property">
+          <img src="assets/img/clients/JMB.svg" alt="JMB Waterproofing Solutions">
           <img src="assets/img/clients/Madelaine Vallin.png" alt="Madelaine Vallin">
           <img src="assets/img/clients/Atmos Medical.png" alt="Atmos Medical">
           <img src="assets/img/clients/BluePrint medical.png" alt="BluePrint medical">
