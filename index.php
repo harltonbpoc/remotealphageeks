@@ -176,15 +176,16 @@
           </div>
         </div>
         <div class="owl-carousel clients-carousel">
-          <img src="assets/img/clients/Madelaine Vallin.png" alt="">
-          <img src="assets/img/clients/Atmos Medical.png" alt="">
-          <img src="assets/img/clients/BluePrint medical.png" alt="">
-          <img src="assets/img/clients/Elective Recruitment.png" alt="">
-          <img src="assets/img/clients/Komerco.png" alt="">
-          <img src="assets/img/clients/Rubix Solutions.png" alt="">
-          <img src="assets/img/clients/Ochre Recruitment.png" alt="">
-          <img src="assets/img/clients/ASHC.png" alt="">
-          <img src="assets/img/clients/Xanda Group.png" alt="">
+          <img src="assets/img/clients/West-coast.png" alt="West Coast Property">
+          <img src="assets/img/clients/Madelaine Vallin.png" alt="Madelaine Vallin">
+          <img src="assets/img/clients/Atmos Medical.png" alt="Atmos Medical">
+          <img src="assets/img/clients/BluePrint medical.png" alt="BluePrint medical">
+          <img src="assets/img/clients/Elective Recruitment.png" alt="Elective Recruitment">
+          <img src="assets/img/clients/Komerco.png" alt="Komerco">
+          <img src="assets/img/clients/Rubix Solutions.png" alt="Rubix Solutions">
+          <img src="assets/img/clients/Ochre Recruitment.png" alt="Ochre Recruitment">
+          <img src="assets/img/clients/ASHC.png" alt="ASHC">
+          <img src="assets/img/clients/Xanda Group.png" alt="Xanda Group">
         </div>
       </div>
     </section>
