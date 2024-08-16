@@ -636,9 +636,6 @@ h6 {
     margin-bottom: -150px;
     height: 80vh;
   }
-  #hero .bg-circle-1{
-    width: unset !important;
-  }
 }
 
 @media (max-width: 768px) {
@@ -659,6 +656,9 @@ h6 {
 
   .arrow-tab .title-image {
     align-content: space-around;
+  }
+  #hero .bg-circle-1{
+    width: unset !important;
   }
 }
 
