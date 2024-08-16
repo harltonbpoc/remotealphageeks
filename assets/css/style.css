@@ -520,7 +520,7 @@ h6 {
 
 #hero .bg-circle-1 {
   height: 60rem;
-  /* width: 60rem; */
+  width: 60rem;
   bottom: 19rem;
   left: -21rem;
 }
@@ -656,6 +656,9 @@ h6 {
 
   .arrow-tab .title-image {
     align-content: space-around;
+  }
+  #hero .bg-circle-1{
+    width: unset !important;
   }
 }
 
