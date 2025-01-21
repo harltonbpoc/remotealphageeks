@@ -315,7 +315,7 @@
       <div class="mr-lg-auto text-center text-lg-left">
         <div class="copyright"> &copy; Copyright <span id="current-year"></span> <strong><span>Remote Alpha
               Geeks</span></strong>. All Rights Reserved </div>
-        <div class="credits" style="color: #aaa;"> Designed by <a href="http://harltonhinon.epizy.com/"
+        <div class="credits" style="color: #aaa;"> Designed by <a href="https://www.linkedin.com/in/harlton-hinon/"
             target="_blank">Hart</a>
         </div>
       </div>
